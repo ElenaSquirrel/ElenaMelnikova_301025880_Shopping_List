@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C01215F02179497400CCB830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01215EF2179497400CCB830 /* AppDelegate.swift */; };
-		C01215F22179497400CCB830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01215F12179497400CCB830 /* ViewController.swift */; };
+		C01215F22179497400CCB830 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01215F12179497400CCB830 /* TabBarViewController.swift */; };
 		C01215F52179497400CCB830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01215F32179497400CCB830 /* Main.storyboard */; };
 		C01215F72179497500CCB830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01215F62179497500CCB830 /* Assets.xcassets */; };
 		C01215FA2179497500CCB830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01215F82179497500CCB830 /* LaunchScreen.storyboard */; };
+		C012160221794D3D00CCB830 /* ConputerPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160121794D3D00CCB830 /* ConputerPartsViewController.swift */; };
+		C012160421794D5200CCB830 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160321794D5200CCB830 /* GroceryViewController.swift */; };
+		C012160621794D6F00CCB830 /* HollidayShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C01215EC2179497400CCB830 /* ElenaMelnikova_301025880_Shopping_List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElenaMelnikova_301025880_Shopping_List.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01215EF2179497400CCB830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C01215F12179497400CCB830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01215F12179497400CCB830 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		C01215F42179497400CCB830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C01215F62179497500CCB830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C01215F92179497500CCB830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01215FB2179497500CCB830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C012160121794D3D00CCB830 /* ConputerPartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConputerPartsViewController.swift; sourceTree = "<group>"; };
+		C012160321794D5200CCB830 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollidayShoppingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				C01215EF2179497400CCB830 /* AppDelegate.swift */,
-				C01215F12179497400CCB830 /* ViewController.swift */,
+				C01215F12179497400CCB830 /* TabBarViewController.swift */,
+				C012160121794D3D00CCB830 /* ConputerPartsViewController.swift */,
+				C012160321794D5200CCB830 /* GroceryViewController.swift */,
+				C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */,
 				C01215F32179497400CCB830 /* Main.storyboard */,
 				C01215F62179497500CCB830 /* Assets.xcassets */,
 				C01215F82179497500CCB830 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C01215F22179497400CCB830 /* ViewController.swift in Sources */,
+				C012160421794D5200CCB830 /* GroceryViewController.swift in Sources */,
+				C012160221794D3D00CCB830 /* ConputerPartsViewController.swift in Sources */,
+				C01215F22179497400CCB830 /* TabBarViewController.swift in Sources */,
 				C01215F02179497400CCB830 /* AppDelegate.swift in Sources */,
+				C012160621794D6F00CCB830 /* HollidayShoppingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.ElenaMelnikova-301025880-Shopping-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.ElenaMelnikova-301025880-Shopping-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
