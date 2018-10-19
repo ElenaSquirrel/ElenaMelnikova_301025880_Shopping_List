@@ -15,6 +15,7 @@
 		C012160221794D3D00CCB830 /* ConputerPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160121794D3D00CCB830 /* ConputerPartsViewController.swift */; };
 		C012160421794D5200CCB830 /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160321794D5200CCB830 /* GroceryViewController.swift */; };
 		C012160621794D6F00CCB830 /* HollidayShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */; };
+		C0A48CA72179933F002202C5 /* shopping-cart-2az1w12.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A48CA62179933F002202C5 /* shopping-cart-2az1w12.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C012160121794D3D00CCB830 /* ConputerPartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConputerPartsViewController.swift; sourceTree = "<group>"; };
 		C012160321794D5200CCB830 /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
 		C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollidayShoppingViewController.swift; sourceTree = "<group>"; };
+		C0A48CA62179933F002202C5 /* shopping-cart-2az1w12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping-cart-2az1w12.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C012160521794D6F00CCB830 /* HollidayShoppingViewController.swift */,
 				C01215F32179497400CCB830 /* Main.storyboard */,
 				C01215F62179497500CCB830 /* Assets.xcassets */,
+				C0A48CA62179933F002202C5 /* shopping-cart-2az1w12.png */,
 				C01215F82179497500CCB830 /* LaunchScreen.storyboard */,
 				C01215FB2179497500CCB830 /* Info.plist */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A48CA72179933F002202C5 /* shopping-cart-2az1w12.png in Resources */,
 				C01215FA2179497500CCB830 /* LaunchScreen.storyboard in Resources */,
 				C01215F72179497500CCB830 /* Assets.xcassets in Resources */,
 				C01215F52179497400CCB830 /* Main.storyboard in Resources */,
@@ -295,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = ElenaMelnikova_301025880_Shopping_List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = ElenaMelnikova_301025880_Shopping_List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
